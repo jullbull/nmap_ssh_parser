@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<nmaprun scanner="nmap" args="nmap -sT -PN -n -sV -p 22 -&#45;open -oX rdpgb.xml 127.0.0.1" start="1" startstr="" version="7.60" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="22"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="Connect Scan" time="1" percent="0" remaining="1452" etc="1"/>
+<host starttime="1" endtime="1"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="127.0.0.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="" method="probed" conf="8"/></port>
+</ports>
+<times srtt="1" rttvar="1" to="1"/>
+</host>
+<runstats><finished time="1" timestr="" elapsed="6042.37" summary="" exit="success"/><hosts up="" down="0" total=""/>
+</runstats>
+</nmaprun>
